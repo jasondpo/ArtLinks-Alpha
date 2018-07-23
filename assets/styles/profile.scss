@@ -1,0 +1,247 @@
+
+        p{
+            line-height: 1.6em;
+            color: #444;
+            font-weight: 300;
+            letter-spacing: .02em;
+        }
+        h4{
+            text-align: center;
+        }
+        h110{
+            color: #999ea8;
+            display: block;
+            font-weight: 300;
+            height: 31px;
+            letter-spacing: .03em;
+        }      
+        h111{   /*    Member's name*/
+            color: #535353;
+            display: block;
+            font-size:22px;
+            font-weight: 500;
+            height: 38px;
+           
+        }
+        h112{
+            font-size:12px;
+            font-weight: 500;
+            color: #555;
+            letter-spacing: .03em;
+        }
+        h113{
+            font-size: 24px;
+            display: block;
+            margin-bottom: 16px;
+            font-weight: 200;
+            letter-spacing: .04em;
+            color: #626774;
+        }
+        h114{ /* age sex and location */
+            font-size: 14px;
+            letter-spacing: .03em;
+            display: block;	
+            color: #999ea8;
+            text-align: center; 
+            padding: 6px 0px 8px 0px;       
+        }
+        h115{
+            display: block;
+            font-size: 12px;
+            letter-spacing: .03em;
+            font-weight: 400;
+            color: #999ea8;	
+        }
+        h115 span{
+            color: #555;
+            font-weight: 500;            
+            position: absolute;
+            display: inline-block;
+            left: 100px;
+            text-align: left;	
+        } 
+        h116{
+			color: white;
+            font-weight: 600;
+            text-align: center;
+            font-size: 18px;            
+            display: block;
+            letter-spacing: .03em;	        
+        }       
+        .v-centered{
+          position: relative;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }          
+        .pp-nav-wrapper{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            border-bottom: 1px solid #d1d6de;           
+        }
+        .pp-nav-tab{
+            list-style-type: none;
+            height: 40px;
+            margin: 0 auto;
+            padding: 8px 0px 0px 0px;
+            width: 296px;
+        }
+        .pp-nav-tab li{
+            float: left;
+            display: block;
+            width: 74px;
+            cursor: pointer;
+        }
+        .pp-primary-info{
+            text-align: center;
+        }
+        .pp-images-section, .pp-projects-section, .pp-resume-section{
+            display: none;
+        }
+        .pp-projects-section{
+	        padding-bottom: 30px;
+	        border-bottom: 1px solid #d1d6de;
+	        margin-bottom: 30px;
+        }
+        .pp-about-btn h110{
+            color: #535353;
+            font-weight: 500;
+            border-bottom: 2px solid #00ADEF;
+        }
+        .pp-skill-list{
+            list-style-type: none;
+            padding: 0px;
+            margin: 10px 0px 10px 0px;
+        }
+        .pp-skill-list li{
+            display: inline-block;
+            margin-right: 4px;
+            background-color: #dce0e7;
+            padding: 2px 6px 3px 6px;
+        }
+        .pp-profile-pic{
+            position: relative;
+            background-size: cover;
+            z-index: 2;
+            left:50%;
+            margin: 60px 0px 10px -75px;
+            width: 136px;
+            height: 136px;
+            border:6px solid #EBEEF5;
+            background-color: #777;
+            border-radius: 100%;
+        }
+        .pp-socialMedia-list{
+            list-style-type: none;
+            padding: 0px;
+            margin: 24px 0px 0px 0px;
+            display: inline-block;
+        }
+        .pp-socialMedia-list li{
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+            float: left;
+            margin-left: 8px;
+            cursor: pointer;
+        }
+        .pp-cover-photo{
+            position: absolute;
+            top:0px;
+            left: 0;
+            right:0;
+            height: 110px;
+            background-color:#1C1D22;
+        }
+        .pp-socialIcon-class{
+	        transition: transform 0s ease-out 0s;       
+        }
+        .pp-socialIcon-class:hover{	            
+	        transform: rotateZ(360deg);
+	        transition: transform .5s ease-out 0s;       
+        }        
+        .pp-facebook{
+            background-color: #3B5998;
+            background-image: url(../images/icon-facebook-transparent.png);
+        }
+        .pp-instagram{
+            background-color: #c32aa3;
+            background-image: url(../images/icon-instagram-transparent.png);            
+        }
+        .pp-linkedin{
+            background-color: #007bb5;
+            background-image: url(../images/icon-linkedin-transparent.png);                        
+        }
+        .pp-youtube{
+            background-color: #ff0000;
+            background-image: url(../images/icon-youtube-transparent.png);                                    
+        }
+        .pp-chat{
+	        position: absolute;
+			background-image: url(../images/icon-chat.png) ;
+	        background-position:center -1px;
+	        background-repeat: no-repeat; 	        	
+	        z-index: 5;
+	        width: 39px;
+	        height: 39px;
+	        left: 50%;
+	        margin-left: 20px;
+	        top: 58px;
+	        border: 5px solid #EBEEF5;
+	        background-color: #696d83;
+	        border-radius: 100%;
+	        cursor: pointer;
+	        transition: background-color .1s linear;
+        }
+        .pp-chat:hover{
+	        background-color: #00ADEF;
+	        background-image: url(../images/icon-chat.png) ;
+	        background-position:center -34px;
+	        background-repeat: no-repeat; 
+        }        
+        .fa{
+	        cursor: pointer;
+        }
+        .fa:hover{
+	        color: #00ADEF;
+        }
+        .pp-details-wrapper{
+	        width: 100%;
+	        padding-bottom: 1px;
+        }
+        .pp-detials-list{
+	        position: relative;
+	        list-style-type: none;
+	        padding: 0px;
+	        margin: 0px;
+        }
+        .pp-detials-list li{
+	        display: block;
+	        height: 40px;
+	        border-top:1px dotted #c3c8d1;
+        }
+        .fundme{
+	        width: 60px;
+	        height: 23px;
+	        left: 50%;
+	        margin-left: 20px;
+	        top:-16px;
+	        position: absolute;
+	        background-image: url(../images/fundme.png);
+	        background-repeat: no-repeat;	        
+        }
+        .fundme-btn{
+	        width: 100%;
+	        height: 50px;
+	        background-color: #7EC200;
+	        border-radius: 8px;
+	        margin-bottom: 30px;
+	        cursor: pointer;
+	        transition: background-color .1s linear;
+        }
+        .fundme-btn:hover{
+	        background-color: #6ba500;	        
+        }

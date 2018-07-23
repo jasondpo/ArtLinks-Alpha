@@ -1,0 +1,654 @@
+@import "colors.scss";
+
+body, html {
+  -webkit-font-smoothing: subpixel-antialiased; 
+}
+
+h30{
+	color: #8a8e97;
+}
+h31{ // profile container name
+	display: block;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	color: $highlight2;
+	margin-top: 10px;
+	letter-spacing: .02em;
+	cursor: pointer;
+}
+h31:hover{
+	color: #212121;
+}
+h32{ // profile container skills
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	color: #999ea8;
+	margin-top:2px;
+	letter-spacing: .06em;
+}
+h33{  // Section title
+	font-size: 24px;
+	font-weight: 200;
+	letter-spacing: .04em;
+	color: #626774;
+	cursor: pointer;
+}
+h33 span{  // Section title
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: .02em;
+}
+h33 span:hover{  // Section title
+	color: #333;
+	text-decoration: underline;	
+}
+h34{ // Profile status
+	text-transform: uppercase;
+	color: #999ea8;
+	font-weight: 400;
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: .05em;
+}
+h35, h36{ // Number of projects, Hiring, 
+	font-size: 18px;
+	font-weight: 500;
+	color:$highlight;
+}
+h37{ //Available
+	font-size: 18px;
+	color: #999ea8;
+	font-weight: 800;	
+}
+h38{ //Connect
+	display: block;
+	box-sizing: content-box;
+	padding-top: 6px;
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	color: #999ea8;	
+	letter-spacing: .02em;
+	text-indent: 24px;
+	cursor: pointer;
+	transition: all .15s linear;		
+}
+h38:hover{
+	background-color: #e9e9e9;
+}
+h39{ //Chat
+	display: block;
+	box-sizing: content-box;
+	padding-top: 6px;
+	width: 50%;
+	height: 30px;
+	float: right;
+	font-size: 12px;
+	text-align: center;
+	color: #999;	
+	letter-spacing: .02em;
+	text-indent: 24px;
+	cursor: pointer;
+	transition: all .15s linear;		
+}
+h40{ // Profile whole name
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: 146px;
+	text-align: right;
+	color: white;
+	font-size: 12px;
+	float: left;
+	letter-spacing: .05em;
+	cursor: pointer;
+}
+h40:hover{
+	text-decoration: underline;
+}
+
+h60{ // Featured event
+	position: absolute;
+	z-index: 3;
+	font-size: 36px;
+	bottom:66px;
+	left: 0px;
+	right: 0px;
+	display: block;
+	font-weight: 500;
+	color: white;
+	letter-spacing: .04em;
+	max-width: 1090px;
+	margin: 0px auto;
+	letter-spacing: .04em;
+	cursor: pointer;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;	
+}
+h60:hover{
+	text-decoration: underline;
+}
+h60 span{
+	font-size: 12px;
+	display: block;
+	text-transform: uppercase;	
+}
+h61{ // Featured event time and place
+	position: absolute;
+	z-index: 3;	
+	bottom:36px;
+	padding-bottom: 10px;	
+	left: 0px;
+	right: 0px;		
+	font-size: 18px;
+	display: block;
+	max-width: 1090px;
+	letter-spacing: .04em;
+	font-weight: 400;
+	margin: 0px auto;
+	color: white;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;				
+}
+h62{  // Copyright 
+	display: block;
+	width: 100%;
+	font-size: 11px;
+	color: #999;
+// 	text-align: center;
+	letter-spacing: .06em;
+	max-width: 1090px;
+	margin: 0px auto;
+	
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+
+h62 span{
+	color: #666;
+	line-height: 2.5em;
+	font-weight: 500;
+	font-size: 12px;
+	cursor: pointer;	
+}
+h62 span:hover{
+	text-decoration: underline;
+}
+
+////// Search Bar STARTS ////////
+
+.searchBar-container{
+	z-index: 4;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(12,12,14, .8);
+	height: 40px;
+}
+.searchBar-icon-container{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin-left: -545px;	
+	height: 40px;
+	max-width: 1090px;
+	margin: 0px auto;
+}
+.searchBar-searchBtn{
+	float: right;
+	height: 40px;
+	cursor: pointer;
+}
+.searchBar-shareBtn{
+	text-align: right;
+	margin-right: 30px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+}
+.searchBar-searchBtn span, .searchBar-shareBtn span{
+	position: relative;
+	top: 26%;
+	-webkit-transform: translateY(-36%);
+	-ms-transform: translateY(-36%);
+	transform: translateY(-36%);
+	color: #8a8e97;
+	cursor: pointer;
+	letter-spacing: .03em;
+}
+.searchBar-searchBtn span:hover, .searchBar-shareBtn span:hover{
+	color: white;
+}
+.searchBar-profile-pic{
+	position: absolute;
+	right: 110px;
+	top:7px;
+	width: 26px;
+	height: 26px;
+	background-color: #666;
+	border-radius: 100%;
+	background-image: url(../images/monique.png);
+	background-size: cover;
+	cursor: pointer;	
+}
+.searchBar-profile-pic:after{
+	height: 20px;
+    display: block;
+    width: 1px;
+    border-left: 1px solid #393b47;
+    margin: 4px 0px 0px 54px;
+    content: '';
+}
+////// Search Bar ENDS //////
+
+
+.connect{
+	background: url(../images/icon-connect.png) 80px -30px no-repeat;	
+}
+.connect:hover{
+	background: url(../images/icon-connect.png) 80px -30px no-repeat #ccd0d8;	
+}
+
+.chat{
+	position: absolute;
+	right:6px;
+	top:6px;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon-chat.png) center top no-repeat;	
+	background-color: rgba(20, 20, 20, .1);
+	border-radius: 8%;
+	cursor: pointer;
+	transition: background-color .15s linear;
+}
+.chat:hover{
+	background: url(../images/icon-chat.png) center bottom no-repeat;	
+	background-color:$highlight !important;
+}
+.card-container:hover .chat{
+	background: url(../images/icon-chat.png) center bottom no-repeat rgba(20, 20, 20, .5);		
+}
+
+
+
+
+.mobile-header-container{
+	position: fixed;
+	z-index: 4;
+	top:3px;
+	left: 0;
+	right: 0;
+	height: 30px;
+	background-color: $dark-grey;
+	display: none;
+}
+
+
+.container-max-width{
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.main-container-position{
+	padding-top: 36px;
+}
+.card-floating-socialIcons{
+	position: absolute;
+	box-sizing: border-box;
+	padding: 12px 0px;
+	z-index: 5;
+	width: 198px;
+	height: 100px;
+	background-color: $dark-grey;
+	display: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 18px 8px rgba(40, 40, 40, .25);
+}
+.card-floating-socialIcons-arrowDown{
+	position: absolute;
+	left: 10px;
+	bottom: -7px;
+	width: 0; 
+	height: 0; 
+	margin: 20px 0px 0px 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;	
+	border-top: 8px solid $dark-grey;
+	display: none;
+}
+.card-floating-socialIcons-arrowUp{
+	position: absolute;
+	left: 10px;
+	top: -7px;
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid $dark-grey;
+	display: none;
+}
+.card-floating-socialIcons-list{
+	padding: 0px;
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	list-style-type: none;
+}
+.card-floating-socialIcons-list li{
+	float: left;
+}
+.card-floating-socialIcons-list li:hover{
+
+}		
+.card-floating-socialIcons-class{
+	width: 32px;
+	height: 32px;
+	margin: 0px 0px 8px 8px;
+	cursor: pointer;
+	display: none;
+}
+.card-floating-socialIcons-class:hover{
+	background-position: center bottom;
+}
+.card-container{
+	position: relative;
+	height: 410px;
+	margin-bottom: 12%;
+	overflow: hidden;
+	box-shadow: 0px 0px 3px 3px rgba(55, 55, 55, 0);	
+	transition:box-shadow .15s linear;	
+}
+.card-container:hover{
+	box-shadow: 0px 0px 3px 3px rgba(55, 55, 55, .2);
+}
+.card-container-profile{
+	width: 100%;
+	height: 250px;
+	background-color: grey;
+	background-size: cover;
+	background-position: center top;
+	transition:width .15s linear, margin-left .15s linear;
+	cursor: pointer;
+}
+
+.card-container:hover .card-container-profile{
+	width: 110%;
+	margin-left: -10px;
+}
+.card-container-status-container{
+	position: absolute;
+	bottom: 52px;
+	height: 40px;
+	left: 2%;
+	right: 2%;
+	box-sizing: border-box;
+	padding: 0px 10px;
+}
+.card-container-connectBar{
+	position: absolute;
+	left:0;
+	right: 0;
+	height: 30px;
+	bottom: 0;
+	border-radius: 2px;
+	background-color: #dbdee6;
+// 	background-color: #dce0e7;
+}
+.statusClass{
+	display: block;
+	width: 33.33%;
+	height: 40px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.statusClass:hover h34{
+	color: #666;
+}
+
+.facebook{
+	background-image: url(../images/icon-facebook.png);
+}
+.linkedin{
+	background-image: url(../images/icon-linkedin.png);
+}
+.instagram{
+	background-image: url(../images/icon-instagram.png);
+}
+.youtube{
+	background-image: url(../images/icon-youtube.png);
+}
+.vimeo{
+	background-image: url(../images/icon-vimeo.png);
+}
+
+//////////////// Search Box START //////////////// 
+
+.search-container{
+	position: fixed;
+	z-index: 11;
+	width: 600px;
+	height: 60px;
+	background-color: white;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: 220px;
+	display: none;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.search-container-button{
+	width: 60px;
+	height: 60px;
+	background-color: #ccd0d8;
+	color: #666;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	transition: all .15s linear;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+.search-container-button:hover{
+	background-color:$highlight;
+	color: white;
+}
+.search-container-search-field{
+	height: 60px;
+	border: 0px;
+	width: 540px;
+	float: left;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding: 0px 10px;
+}
+
+//////////////// Search Box ENDS //////////////// 
+
+
+//////////////// Dialogue Box START //////////////// 
+h80{ /*Dialogue box main header*/
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #666;
+    font-weight: 600;
+    text-indent: 10px;
+    letter-spacing: .02em;
+   
+  top: 50%;
+  transform: translateY(-50%);       
+}
+h81{ /*Dialogue box subheads*/
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    height: 6px;
+    letter-spacing: .02em;
+}
+.shareBox-overlay{
+    position: fixed;
+    z-index: 10;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(20, 20, 20, .9);
+    display: none;
+}
+
+.shareBox-container{
+    color: #999;
+    position: fixed;
+    z-index: 11;   
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -130px;
+    top:50%;
+    width: 500px;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 84px 20px 30px 20px;
+    overflow: hidden;
+    display: none;
+}
+.shareBox-header{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    border-bottom: 1px solid #D9D9D9;
+    background-color: #e3e3e3;
+}
+.shareBox-linkBox{
+    height: 35px;
+    width: 215px;
+    border: 1px solid #D9D9D9;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 2px;
+    padding: 9px;
+    white-space: nowrap;
+    color: #666;
+}
+.shareBox-link-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-bottom: 20px;
+}
+.shareBox-link-socialIcons{
+    height: 35px;
+}
+.emailField{
+    width: 380px;
+    height: 35px;
+    border: 1px solid #D9D9D9;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 2px;
+    padding: 9px;
+    white-space: nowrap;
+    color: #666;       
+}
+.sendBtn{
+    width: 70px;
+    float: right;
+    height: 35px;
+    border: 1px solid #CCC;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 2px;
+    padding: 6px;
+    cursor: pointer;
+    transition: background-color .15s linear;
+    color: #666;
+    letter-spacing: .02em;
+}
+.sendBtn:hover{
+    color: white;
+    background-color:$highlight;
+    border: 1px solid$highlight;   
+}
+.shareBox-container-shareIcons{
+    margin: 0px;
+    padding-left: 0px;
+}
+.shareBox-container-shareIcons li{
+    list-style: none;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dialogue-fb{
+	background: url(../images/icon-facebook.png) center bottom;	
+}
+.dialogue-in{
+	background: url(../images/icon-instagram.png) center bottom;	
+}
+.dialogue-twt{
+	background: url(../images/icon-twitter.png) center bottom;
+}
+.dialogue-g{
+	background: url(../images/icon-google.png) center bottom;	
+}
+////////////////  Dialogue Box END //////////////// 
+
+
+
+////////////////  bottom Slider START //////////////// /
+
+.bottomSlider-container{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	background-color: #AAA;
+	background-image: url(../images/featured-image-1.png);	
+}
+.bottomSlider-container-overlay{
+	position: absolute;
+	z-index: 1;
+	height: 600px;
+	left: 0;
+	right: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 50%, rgba(0,0,0, .6) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(50%,#000), color-	stop(100%,rgba(0,0,0, .6)));
+	background: -webkit-linear-gradient(top rgba(0,0,0,0) 50%, rgba(0,0,0, .6) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 50%, rgba(0,0,0, .6) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 50%, rgba(0,0,0, .6) 100%);
+	background: linear-gradient(top, rgba(0,0,0,0) 50%, rgba(0,0,0, .6) 100%);
+}
+////// ABOUT END /////
+
+////// FOOTER STARTS /////
+
+.footer{
+	width: 100%;
+	height: 140px;
+// 	background-color: $dark-grey;
+}
+
+////// FOOTER END /////
+
+

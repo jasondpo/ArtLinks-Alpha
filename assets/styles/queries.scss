@@ -1,0 +1,158 @@
+
+@media all and (max-width:1450px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width, .searchBar-icon-container, h60, h61, h10, .title-container, .video-Slide-container, .bottomSlider-slideArrow-container, .slide-nav-wrapper, h62, .sample-project-wrapper{
+		max-width: 900px;
+	}
+	.video-tester{
+		margin-left:-440px;
+	}
+	.sample-project-scroll-left{
+		margin-left: -450px;
+	}
+	.sample-project-scroll-right{
+		margin-left: 400px;
+	}						
+}
+
+@media all and (max-width:1260px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width, .searchBar-icon-container, h60, h61, h10, .title-container, .video-Slide-containerr, .bottomSlider-slideArrow-container, .slide-nav-wrapper, h62, .sample-project-wrapper {
+		max-width: 760px;
+	}
+	.video-tester{
+		margin-left:-180px;		
+	}
+	.video-text{
+		display: none;
+	}
+	.btn-class{
+		top: 100px;
+		left:50%;
+	}
+	.rev-btn{
+		margin-left: -230px ;
+	}
+	.forward-btn{
+		margin-left: 190px;
+	}
+	.sample-project-scroll-left{
+		margin-left: -380px;
+	}
+	.sample-project-scroll-right{
+		margin-left: 330px;
+	}					
+}
+@media all and (max-width:1550px) {  /* Applies styles UP TO max width */
+	.member {
+		display: none;
+	}		
+}
+@media all and (max-width:1100px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width, .searchBar-icon-container, h60, h61, h10,.title-container, .video-Slide-container, .bottomSlider-slideArrow-container, .slide-nav-wrapper, h62, .sample-project-wrapper {
+		max-width: 700px;
+	}
+	.projects-container{  
+		display: none;	
+	}		
+}
+@media all and (max-width:1024px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width, .searchBar-icon-container, h60, h61, h10, .title-container, .video-Slide-container, .bottomSlider-slideArrow-container, .slide-nav-wrapper, h62, .sample-project-wrapper {
+		max-width: 600px;
+	}		
+}
+
+@media all and (max-width:768px) {  /* Applies styles UP TO max width */
+	.card-container{
+ 		height: 80vh;
+ 		min-height: 500px;
+	}
+	.card-container-profile{
+ 		height: 55vh;
+ 		min-height: 250px;
+	}
+	h33{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.myNumbers{ //dropdown list for artists
+    	float:inherit;
+    	display: inline-block;
+    }
+    .title-height{
+	    text-align: center;
+    }	
+}
+
+
+
+
+@media all and (max-width:1450px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width{
+		max-width: 900px;
+	}		
+}
+
+@media all and (max-width:1260px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width{
+		max-width: 760px;
+	}		
+}
+@media all and (max-width:1100px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width{
+		max-width: 700px;
+	}		
+}
+@media all and (max-width:1024px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .media-nav, .container-max-width{
+		max-width: 600px;
+	}		
+}
+
+@media all and (max-width:920px) {  /* Applies styles UP TO max width */
+	.video-bar-row, .main-nav-container, .media-nav, .logo, .video-bar-container-closeBtn, .video-bar-container, .searchBar-container, .features-container, .bottomSlider-container, .convoBtn, .convoBox-container{
+		display: none !important;
+	}
+	.video-bar-mobile-container, .mobile-header-container{
+		display: block;
+	}	
+}
+
+
+
+
+
+
+
+/*************** Slideshow Bottom START ***************/
+
+
+@media all and (max-width: 991px) {
+  /* Applies styles UP TO max width */
+  .slider {
+    padding-left: 15px;
+    padding-right: 0px; }
+  .slideWrapper {
+    padding-bottom: 56%; }
+  .billboard-slide {
+    position: relative;
+    border-right: 0px solid #383F4A;
+    border-bottom: 4px solid #383F4A; }
+   .art-selector-menu {
+    display: none; }
+    h9 {
+    text-align: center; } }
+
+@media all and (max-width: 767px) {
+  /* Applies styles UP TO max width */
+  h5 {
+    font-size: 6.5vw; }
+  .mug-wrapper:hover h5 {
+    font-size: 3vw; }
+  .mobile-slide-wrapper, .mobile-slide-bottom-cover {
+    display: block; }
+  .intro-section {
+    display: none; } }
+
+@media all and (max-width: 700px) {
+  .content-section {
+    padding: 0px 30px 16px 30px; } }

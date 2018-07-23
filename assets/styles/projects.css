@@ -1,0 +1,193 @@
+h99 {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  width: 350px;
+  max-height: 100px;
+  margin-right: 10px;
+  color: #666;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: .03em;
+  margin-top: 10px;
+  float: right;
+  white-space: normal;
+  overflow: hidden; }
+
+h99 span {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: .06em;
+  color: #b0b4c4;
+  text-transform: uppercase; }
+
+.multilineEllipseContainer h99:before {
+  content: "Description ";
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: .06em;
+  color: #b0b4c4;
+  text-transform: uppercase; }
+
+.leadin {
+  color: aqua !important; }
+
+h100 {
+  top: 170px;
+  left: 454px;
+  position: absolute;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  width: 130px;
+  font-weight: 500;
+  color: #00ADEF;
+  letter-spacing: .02em;
+  display: inline-block;
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  cursor: pointer; }
+
+h100:hover {
+  text-decoration: underline; }
+
+.projects-container {
+  border-top: 1px solid #DDD;
+  padding-top: 30px;
+  background-color: white;
+  margin-top: 16px; }
+
+/*************** Project Slider STARTS ***************/
+.sample-project-wrapper {
+  position: relative;
+  max-width: 1090px;
+  margin: 25px auto 0;
+  left: 0px;
+  right: 0px;
+  height: 265px;
+  overflow-y: hidden; }
+
+.sample-project-container {
+  height: 300px;
+  white-space: nowrap; }
+
+.sample-project-image {
+  float: left;
+  width: 390px;
+  height: 219px;
+  background-size: cover;
+  background-color: #EEE; }
+
+.sample-videoPlayBtn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 390px;
+  height: 219px;
+  z-index: 0;
+  display: block;
+  background-image: url(../images/playBtn.png);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.sample-project-container-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  width: 770px;
+  height: 220px;
+  cursor: pointer;
+  border: 1px solid #F1F3F8;
+  background-color: #FCFCFD;
+  box-sizing: border-box;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: box-shadow 0.1s linear; }
+
+.sample-project-wrapper-spacer {
+  width: 770px;
+  height: 220px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px; }
+
+.sample-project-container-wrapper:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
+
+.sample-project-scrollbar-cover {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 18px;
+  background-color: white; }
+
+.sample-project-scroll-right {
+  margin-left: 505px;
+  background-image: url(../images/rightArrow.png);
+  background-position: center center; }
+
+.sample-project-scroll-left {
+  margin-left: -545px;
+  background-image: url(../images/leftArrow.png);
+  background-position: center center; }
+
+.sample-project-scroll-class {
+  position: absolute;
+  z-index: 2;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 173, 239, 0.6);
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: all .25 linear; }
+
+.sample-project-scroll-class:hover {
+  background-color: #00adef; }
+
+.sample-project-profile {
+  position: absolute;
+  left: 410px;
+  bottom: 20px;
+  width: 36px;
+  height: 36px;
+  background-color: #999;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center top; }
+
+.sample-project-status-container {
+  text-align: right;
+  width: 220px;
+  height: 42px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  box-sizing: border-box; }
+
+.sample-project-status-container .statusClass {
+  float: right !important; }
+
+.slideCount {
+  float: right;
+  width: 50px;
+  margin-top: 10px;
+  height: 20px;
+  text-align: right;
+  color: #626774; }
+
+.multilineEllipseContainer {
+  max-height: 98px;
+  min-height: 30px;
+  width: 378px;
+  display: block;
+  float: right;
+  overflow: hidden; }
+
+/*************** Project Slider ENDS ***************/

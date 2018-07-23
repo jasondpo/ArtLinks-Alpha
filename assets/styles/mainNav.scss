@@ -1,0 +1,101 @@
+@import "colors.scss";
+
+//////////////////////  Main navigations STARTS ///////////////////////
+.features-page .features{
+	background-color:#000 ;
+	background-position: 10px 2px;
+	border-right: 4px solid $highlight;
+}
+.features-page .features h30{
+	color: white;
+}
+
+.profile-page .main-nav-container{
+	top: 160px !important;	
+}
+.main-nav-container{
+	position: absolute;
+	top: 358px;
+	left: 30px;
+	width: 116px;
+	overflow: hidden;
+	border-radius: 3px;
+	background-color:#393b47;
+	z-index: 3;
+}
+.navBtns{
+	margin: 16px 0px 0px 0px;
+ 	background-color: $dark-grey;
+}
+.navBtns li{
+	position: relative;
+	list-style: none;
+	display: block;
+	height: 50px;
+	cursor: pointer;
+	margin-left: -40px;
+	text-indent: 40px;
+	padding-top: 14px;
+	cursor: pointer;	
+}
+.myNumbers{ //dropdown list for artists
+    display: block;
+    float: right;
+    padding: 4px 40px 4px 13px !important; 
+    max-width: 100%; 
+    height: auto !important; 
+    border: 1px solid #d2d6da; 
+    background: url("../images/arrow-down.png") calc(100% - 10px) center no-repeat; 
+    background-color: #F4F8FB; 
+    color: #444444; 
+    font-size: 12px;
+    letter-spacing: .04em; 
+    line-height: 16px !important; 
+    appearance: none; 
+    -webkit-appearance: none;/* this is must */  
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: background-color .1s linear;
+} 
+.myNumbers:hover{
+    background-color: #dde1e8; 	
+}
+.title-height{
+	height: 60px;
+}
+.icon-class{
+	background-repeat: no-repeat;
+	background-position: 10px -42px;
+	letter-spacing: .02em;
+	border-bottom: 1px solid #2d2f38;
+	border-top: 1px solid #000;	
+}
+.icon-class:hover{
+	background-position: 10px 2px;
+	background-color: #000;		
+}
+.icon-class:hover h30{
+	color: white;
+}
+.features{
+	background-image: url(../images/icon-flame.png);
+}
+.home{
+	background-image: url(../images/icon-home.png);
+}
+.members{
+	background-image: url(../images/icon-members.png);
+}
+
+.projects{
+	background-image: url(../images/icon-logo.png);
+}
+.events{
+	background-image: url(../images/icon-calendar.png);
+}
+.news{
+	background-image: url(../images/icon-news.png);
+}
+.play{
+	background-image: url(../images/icon-play.png);
+}
